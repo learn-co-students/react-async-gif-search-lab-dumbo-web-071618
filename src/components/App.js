@@ -1,15 +1,14 @@
 import React from 'react'
-
-import NavBar from './NavBar'
-
-// the App component should render out the GifListContainer component 
+import NavBar from './NavBar' 
+import GifListContainer from '../containers/GifListContainer' 
 
 function App() {
-  return (
-    <div>
-        < NavBar color='black' title="Giphy Search" />
-    </div>
-  )
+	return (
+		<div>
+			< NavBar color='black' title="Giphy Search" />
+			<GifListContainer />
+		</div>
+	)
 }
 
 export default App
